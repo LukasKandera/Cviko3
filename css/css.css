@@ -11,3 +11,27 @@ img {
 
 }
 
+.bird {
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/bird.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: center;
+    position: absolute;
+
+}
+.top {
+    top: 0;
+}
+.right {
+    right: 0;
+}
+.left {
+    left: 0;
+    transform: rotateY(180deg);
+}
+.bottom {
+    bottom: 0;
+}
